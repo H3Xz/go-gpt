@@ -1,4 +1,4 @@
-package pkg
+package chatgpt
 
 import (
 	"context"
@@ -9,7 +9,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
-func test() {
+func TestChatGPT() {
 	err := godotenv.Load()
 	if err != nil {
 		Log.Fatal(err)
