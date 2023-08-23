@@ -2,8 +2,6 @@ package main
 
 import (
 	"log"
-
-	"github.com/H3Xz/go-gpt/cmd/content_generate"
 )
 
 func main(){
