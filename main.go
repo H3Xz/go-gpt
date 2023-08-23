@@ -3,13 +3,13 @@ package main
 import (
 	"log"
 
-	"go-gpt/pkg/chatgpt"
+	"github.com/H3Xz/go-gpt/cmd/content_generate"
 )
 
 func main(){
 	
 	log.Println("Running...")
 
-	chatgpt.TestGPT()
+	content_generate.GetArticle("แทงบอลออนไลน์ ได้เงินฟรี")
 
 }
