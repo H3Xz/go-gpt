@@ -1,4 +1,4 @@
-package gogpt
+package main
 
 import (
 	"log"
@@ -7,7 +7,7 @@ import (
 func main(){
 	
 	log.Println("Running...")
-
 	
+
 
 }
