@@ -7,3 +7,6 @@ github.com/google/go-querystring/query
 # github.com/joho/godotenv v1.5.1
 ## explicit; go 1.12
 github.com/joho/godotenv
+# github.com/veer66/mapkha v0.0.0-20180827014328-4c22c721f2c6
+## explicit
+github.com/veer66/mapkha
