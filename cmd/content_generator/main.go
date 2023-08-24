@@ -1,6 +1,6 @@
 package content_generator
 
-import "githun.com/H3Xz/go-gpt/pkg/chatgpt"
+import "github.com/H3Xz/go-gpt/pkg/chatgpt"
 
 func GetArticle(keyword string) {
 	

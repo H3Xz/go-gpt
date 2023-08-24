@@ -2,12 +2,14 @@ package main
 
 import (
 	"log"
+
+	"github.com/H3Xz/go-gpt/cmd/content_generator"
 )
 
 func main(){
 	
 	log.Println("Running...")
 
-	content_generate.GetArticle("แทงบอลออนไลน์ ได้เงินฟรี")
+	content_generator.GetArticle("ขั้นตอนการทำวีซ่าเริ่มต้นยังไง?")
 
 }

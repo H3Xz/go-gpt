@@ -52,11 +52,11 @@ func PromptContentGenerator(client *goopenai.Client,keyword string) {
 			},
 			{
 				Role: "user",
-				Content: "เขียนบทความ "+keyword,
-			}
+				Content: "เขียนบทความ "+keyword+" ความยาว 300 คำ",
+			},
 		},
 		Temperature: 0.7,
-		MaxTokens:300,
+		MaxTokens:500,
 	}
 
 	completions, err := client.CreateCompletionsRaw(context.Background(), r)
